@@ -25,7 +25,7 @@ public class AlertBotApplication {
 	      = new FilterRegistrationBean<>();
 	         
 	    registrationBean.setFilter(new AuthFilter(jwtProvider));
-	    registrationBean.addUrlPatterns("/bot","/webhook","/token");
+	    registrationBean.addUrlPatterns("/bot","/webhook","/slackbot","/token");
 	         
 	    return registrationBean;    
 	}

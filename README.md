@@ -1,3 +1,4 @@
-# google_hangouts
+# chatbot services
 - google hangouts alertbot
 - google hangouts webhook
+- slack alertbot
